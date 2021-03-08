@@ -1,0 +1,45 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    line-height: 1.5;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background: url('assets/4k-facebook-cover-16.jpg') no-repeat center;
+    background-size: cover;
+    color: rgba(248, 239, 239, 0.781);
+}
+.tablou{
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 2rem; 
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    top: 10rem;
+    background-color: rgba(40, 40, 43, 0.5);
+    border-radius: 5px;
+    box-shadow: hsl(0deg 0% 0% / 80%) 30px 30px 90px;
+    padding-top: 6%;
+    
+}
+.autor{
+    font-size: 50%;
+    position: relative;
+    bottom: 1.4rem;
+}
+.quote{
+    position: relative;
+    bottom: 3rem;
+    animation: qoute 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes qoute {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #f38c06, 0 0 40px #c2762f, 0 0 50px #be6a1b, 0 0 60px #d38827;
+  }
+  
+  to {
+    text-shadow: 0 0 10px #fff, 0 0 30px #fc9a06, 0 0 40px #e49c17, 0 0 50px #e4a023, 0 0 60px #e48c1a, 0 0 70px #d8a71e;
